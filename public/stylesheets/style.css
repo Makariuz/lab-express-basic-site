@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Outfit:wght@100;500&family=Press+Start+2P&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.titleContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: rgb(108,34,195);
+    background: linear-gradient(0deg, rgb(117, 37, 209) 0%, rgba(192,45,253,0.5066756965944272) 100%);
+
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+    border-radius: 6px;
+    
+}
+h1{
+    font-family: "Bangers";
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 3px 3px 6px purple;
+    text-decoration: underline;
+    font-weight: lighter;
+
+}
+
+h2{
+    font-family: "Bangers";
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 30px 0px 30px 0px;
+}
+
+.linksDiv{
+    border:.2px solid grey;
+    border-radius: 6px;
+    display:flex;
+    justify-content: center;
+    gap: 250px;
+    background-color: rgba(128, 0, 128, 0.089);
+}
+
+a{
+    padding: 15px;
+    margin: 4px;
+    border: 2px solid purple;
+    background-color: rgb(22, 22, 22);
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.cardDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pContainer{
+    border: .2px solid grey;
+    text-align: center;
+    padding: 4px;
+    width: 700px;
+    border-radius: 6px;
+    box-shadow: 7px 7px 3px grey;
+}
+
+img{
+    border: .2px solid grey;
+    border-radius: 6px;
+    box-shadow: 7px 7px 3px grey;
+
+}
+
+
+.imgClass{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
